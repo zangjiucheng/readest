@@ -134,7 +134,7 @@ const SideBar: React.FC<{
             />
           </div>
           <div className='border-base-300/50 border-b px-3'>
-            <BookCard cover={book.coverImageUrl!} title={book.title} author={book.author} />
+            <BookCard cover={book.coverImageUrl!} title={book.title} author={book.author} format={book.format}/>
           </div>
         </div>
         {isSearchBarVisible && searchResults ? (
